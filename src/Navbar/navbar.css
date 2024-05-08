@@ -1,0 +1,33 @@
+.navbar-header {
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: azure;
+}
+.navbar-menu {
+  font-size: 20px;
+  font: bolder;
+  text-decoration: none;
+  color: black;
+}
+.navbar-menu Link:hover {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  transform: 0.4s;
+}
+.navbar-menu Link {
+  text-decoration: none;
+  font-family: sans-serif;
+
+  color: black;
+}
+
+.cartIcon .img {
+  height: 30px;
+}
+.cartIcon .btn {
+  font-family: sans-serif;
+  background-color: hotpink;
+  border: 0.5px black solid;
+}
