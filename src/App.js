@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./app/page/Home/home";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Navbar/navbar";
+import Navbar from "../src/app/Navbar/navbar";
 
 function App() {
   return (

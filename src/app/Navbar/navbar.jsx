@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/shopnoshop.png";
+import logo from "../../assets/shopnoshop.png";
 import "./navbar.css";
-import cartIcon from "../assets/cart_icon.png";
+import cartIcon from "../../assets/cart_icon.png";
 
 function Navbar() {
   return (
