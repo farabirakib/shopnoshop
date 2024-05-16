@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 //import { Link } from "react-router-dom";
 import logo from "../../assets/shopnoshop.png";
 import "./navbar.css";
 import cartIcon from "../../assets/cart_icon.png";
 
 const Navbar = () => {
+  const [menu, setMenu] = useState("shop");
   return (
     <nav className="navbar">
       <div className="nav-logo">
