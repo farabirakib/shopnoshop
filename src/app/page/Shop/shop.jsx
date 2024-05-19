@@ -1,12 +1,12 @@
 import React from "react";
-import "./home.css";
+import "./shop.css";
 import homePhoto from "../../../assets/hero_image.png";
 import { Link } from "react-router-dom";
 import arrowIcon from "../../../assets/arrow.png";
 import Popular from "../Products/Popular/popular";
 import Offers from "../Products/Offers/offers";
 
-function Home() {
+function Shop() {
   return (
     <nav>
       <div className="home-header">
@@ -37,4 +37,4 @@ function Home() {
     </nav>
   );
 }
-export default Home;
+export default Shop;

@@ -18,6 +18,8 @@ const Navbar = () => {
             onClick={() => {
               setMenu("shop");
             }}
+            to={"/shop"}
+            style={{ textDecoration: "none" }}
           >
             Shop {menu === "shop" ? <hr /> : <></>}
           </Link>
@@ -27,6 +29,8 @@ const Navbar = () => {
             onClick={() => {
               setMenu("men");
             }}
+            to={"/men"}
+            style={{ textDecoration: "none" }}
           >
             Men{menu === "men" ? <hr /> : <></>}
           </Link>
@@ -36,6 +40,8 @@ const Navbar = () => {
             onClick={() => {
               setMenu("women");
             }}
+            to={"/women"}
+            style={{ textDecoration: "none" }}
           >
             Women{menu === "women" ? <hr /> : <></>}
           </Link>
@@ -45,6 +51,8 @@ const Navbar = () => {
             onClick={() => {
               setMenu("kids");
             }}
+            to={"/kids"}
+            style={{ textDecoration: "none" }}
           >
             Kids{menu === "kids" ? <hr /> : <></>}
           </Link>
@@ -54,14 +62,21 @@ const Navbar = () => {
             onClick={() => {
               setMenu("about");
             }}
+            to={"/about"}
+            style={{ textDecoration: "none" }}
           >
             About Us{menu === "about" ? <hr /> : <></>}
           </Link>
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
-        <img src={cartIcon} alt="" />
+        <Link to={"/login"}>
+          <button>Login</button>
+        </Link>
+        <Link to={"/cartIcon"}>
+          <img src={cartIcon} alt="" />
+        </Link>
+
         <div className="nav-cart-count">0</div>
       </div>
     </nav>
