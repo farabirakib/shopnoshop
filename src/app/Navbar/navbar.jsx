@@ -8,9 +8,16 @@ const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   return (
     <nav className="navbar">
-      <div className="nav-logo">
-        <img src={logo} alt="" />
-      </div>
+      <Link
+        onClick={() => {
+          setMenu("shop");
+        }}
+        to={"/shop"}
+      >
+        <div className="nav-logo">
+          <img src={logo} alt="" />
+        </div>
+      </Link>
 
       <ul className="nav-menu">
         <li>
