@@ -6,6 +6,7 @@ import arrowIcon from "../../../assets/arrow.png";
 import Popular from "../Products/Popular/popular";
 import Offers from "../Products/Offers/offers";
 import NewCollections from "../Products/NewCollections/NewCollections";
+import NewsLetter from "../NewsLetter/NewsLetter";
 
 function Shop() {
   return (
@@ -35,6 +36,7 @@ function Shop() {
         <Popular />
         <Offers />
         <NewCollections />
+        <NewsLetter />
       </div>
     </nav>
   );
