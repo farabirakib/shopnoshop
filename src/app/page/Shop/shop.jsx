@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import arrowIcon from "../../../assets/arrow.png";
 import Popular from "../Products/Popular/popular";
 import Offers from "../Products/Offers/offers";
+import NewCollections from "../Products/NewCollections/NewCollections";
 
 function Shop() {
   return (
@@ -33,6 +34,7 @@ function Shop() {
       <div>
         <Popular />
         <Offers />
+        <NewCollections />
       </div>
     </nav>
   );
