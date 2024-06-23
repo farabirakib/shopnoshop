@@ -31,3 +31,10 @@
   border-radius: 80px;
   border: 1px solid #e3e3e3;
 }
+  width: 500px;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-family: po;
+}

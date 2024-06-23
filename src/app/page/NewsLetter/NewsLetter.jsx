@@ -6,7 +6,7 @@ function NewsLetter() {
     <div className="newsLetter">
       <h1>Get Exclusive Ofeers on Your Email</h1>
       <p> Subscribe to our newsletter and stay update</p>
-      <div>
+      <div className="newsLetter-container">
         <input type="email" placeholder="Your Email id" />
         <button>Subscribe</button>
       </div>
