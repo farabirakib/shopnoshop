@@ -7,6 +7,7 @@ import Popular from "../Products/Popular/popular";
 import Offers from "../Products/Offers/offers";
 import NewCollections from "../Products/NewCollections/NewCollections";
 import NewsLetter from "../NewsLetter/NewsLetter";
+import Footer from "../../Footer/footer";
 
 function Shop() {
   return (
@@ -37,6 +38,7 @@ function Shop() {
         <Offers />
         <NewCollections />
         <NewsLetter />
+        <Footer />
       </div>
     </nav>
   );

@@ -1,0 +1,14 @@
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgb(242, 129, 154) 0%,
+    rgba(247, 248, 249, 1) 60%,
+    rgba(242, 129, 154) 100%
+  );
+  display: flex;
+}
+.footer-col {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}

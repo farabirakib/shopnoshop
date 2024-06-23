@@ -27,15 +27,22 @@
 
   background: white;
   width: 730px;
-  height: 70px;
-  border-radius: 80px;
-  border: 1px solid #e3e3e3;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #e3e3e3;
 }
 .newsLetter-container input {
   width: 500px;
-  margin-left: 30px;
+  margin-left: 10px;
   border: none;
   outline: none;
   color: #616161;
-  font-family: po;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+.newsLetter-container-btn button {
+  background-color: hotpink;
+  border-radius: 6px;
+  padding: 9px;
+  margin-right: 0.2rem;
 }
