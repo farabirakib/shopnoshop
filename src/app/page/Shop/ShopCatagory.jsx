@@ -1,7 +1,7 @@
 import React from "react";
 
-function ShopCatagory() {
-  return <div>ShopCatagory</div>;
-}
+const ShopCatagory = () => {
+  return <div className="shop-catagory">ShopCatagory</div>;
+};
 
 export default ShopCatagory;

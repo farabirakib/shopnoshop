@@ -38,7 +38,6 @@ function Shop() {
         <Offers />
         <NewCollections />
         <NewsLetter />
-        <Footer />
       </div>
     </nav>
   );

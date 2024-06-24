@@ -31,7 +31,7 @@
   width: 182px;
   height: 70px;
   border-radius: 5px;
-  background: hotpink;
+  background: linear-gradient(90deg, #ff66b2, #ff6666);
   border: 1px solid black;
   color: black;
   font-size: 32px;

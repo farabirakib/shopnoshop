@@ -41,7 +41,7 @@
   font-size: 22px;
 }
 .newsLetter-container-btn button {
-  background-color: hotpink;
+  background: linear-gradient(90deg, #ff66b2, #ff6666);
   border-radius: 6px;
   padding: 9px;
   margin-right: 0.2rem;

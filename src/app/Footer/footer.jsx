@@ -15,43 +15,50 @@ function footer() {
       <div className="footer-container">
         <ul className="footer-links">
           <li>
-            <Link to=".">Company</Link>
+            <Link to="." style={{ textDecoration: "none" }}>
+              Company
+            </Link>
             <div className="footer-links-content">
               Lorem ipsum dolor sit <br /> amet consectetur <br /> adipisicing
               elit.
             </div>
           </li>
           <li>
-            <Link to=".">Offices</Link>
+            <Link to="." style={{ textDecoration: "none" }}>
+              Offices
+            </Link>
             <div className="footer-links-content">
               Lorem ipsum dolor sit <br /> amet consectetur <br /> adipisicing
               elit.
             </div>
           </li>
           <li>
-            <Link to=".">About</Link>
+            <Link to="." style={{ textDecoration: "none" }}>
+              About
+            </Link>
             <div className="footer-links-content">
               Lorem ipsum dolor sit <br /> amet consectetur <br /> adipisicing
               elit.
             </div>
           </li>
           <li>
-            <Link to=".">Contact</Link>
+            <Link to="." style={{ textDecoration: "none" }}>
+              Contact
+            </Link>
             <div className="footer-links-content">
-              Lorem ipsum dolor sit <br /> amet consectetur <br /> adipisicing
-              elit.
+              <div className="footer-social-icon">
+                <div className="footer-icons-container">
+                  <img src={instragram_logo} alt="" />
+                </div>
+                <div className="footer-icons-container">
+                  <img src={whatsapp_logo} alt="" />
+                </div>
+              </div>
             </div>
           </li>
         </ul>
       </div>
-      <div className="footer-social-icon">
-        <div className="footer-icons-container">
-          <img src={instragram_logo} alt="" />
-        </div>
-        <div className="footer-icons-container">
-          <img src={whatsapp_logo} alt="" />
-        </div>
-      </div>
+
       <div className="footer-copyright">
         <hr />
         <p>Copyright @ 2023 - All Right Reserved</p>
