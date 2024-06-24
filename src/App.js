@@ -8,6 +8,7 @@ import Women from "./app/page/Women/women";
 import Kids from "./app/page/Kids/kids";
 import About from "./app/page/AboutUs/about";
 import Footer from "./app/Footer/footer";
+import ShopCategory from "./app/page/Shop/ShopCategory";
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/men" element={<Men />} />
-          <Route path="/women" element={<Women />} />
-          <Route path="/kids" element={<Kids />} />
+          <Route path="/men" element={<ShopCategory category="men" />} />
+          <Route path="/women" element={<ShopCategory category="women" />} />
+          <Route path="/kids" element={<ShopCategory category="kid" />} />
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />

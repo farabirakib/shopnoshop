@@ -26,9 +26,13 @@ const Navbar = () => {
               setMenu("shop");
             }}
             to={"/shop"}
-            style={{ textDecoration: "none" }}
+            style={{
+              textDecoration: "none",
+              color: "#828282",
+              fontWeight: 700,
+            }}
           >
-            Shop {menu === "shop" ? <hr /> : <></>}
+            Shop
           </Link>
         </li>
         <li>
@@ -37,9 +41,13 @@ const Navbar = () => {
               setMenu("men");
             }}
             to={"/men"}
-            style={{ textDecoration: "none" }}
+            style={{
+              textDecoration: "none",
+              color: "#828282",
+              fontWeight: 700,
+            }}
           >
-            Men{menu === "men" ? <hr /> : <></>}
+            Men
           </Link>
         </li>
         <li>
@@ -48,9 +56,13 @@ const Navbar = () => {
               setMenu("women");
             }}
             to={"/women"}
-            style={{ textDecoration: "none" }}
+            style={{
+              textDecoration: "none",
+              color: "#828282",
+              fontWeight: 700,
+            }}
           >
-            Women{menu === "women" ? <hr /> : <></>}
+            Women
           </Link>
         </li>
         <li>
@@ -59,9 +71,13 @@ const Navbar = () => {
               setMenu("kids");
             }}
             to={"/kids"}
-            style={{ textDecoration: "none" }}
+            style={{
+              textDecoration: "none",
+              color: "#828282",
+              fontWeight: 700,
+            }}
           >
-            Kids{menu === "kids" ? <hr /> : <></>}
+            Kids
           </Link>
         </li>
         <li>
@@ -70,9 +86,13 @@ const Navbar = () => {
               setMenu("about");
             }}
             to={"/about"}
-            style={{ textDecoration: "none" }}
+            style={{
+              textDecoration: "none",
+              color: "#828282",
+              fontWeight: 700,
+            }}
           >
-            About Us{menu === "about" ? <hr /> : <></>}
+            About Us
           </Link>
         </li>
       </ul>
