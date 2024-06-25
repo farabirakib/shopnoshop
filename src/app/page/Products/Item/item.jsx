@@ -1,7 +1,7 @@
 import React from "react";
 import "./item.css";
 
-const products = (props) => {
+const item = (props) => {
   return (
     <div className="item">
       <img src={props.image} alt="" />
@@ -14,4 +14,4 @@ const products = (props) => {
   );
 };
 
-export default products;
+export default item;

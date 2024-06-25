@@ -5,7 +5,7 @@ import "./navbar.css";
 import cartIcon from "../../assets/cart_icon.png";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("shop");
+  const [setMenu] = useState("shop");
   return (
     <nav className="navbar">
       <Link
@@ -97,7 +97,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <Link to={"/login"}>
+        <Link to={"/LoginSignup"}>
           <button>Login</button>
         </Link>
         <Link to={"/cartIcon"}>
