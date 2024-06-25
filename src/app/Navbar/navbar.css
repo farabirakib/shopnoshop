@@ -64,6 +64,10 @@
   background: #f3f3f3;
 }
 
+.cart-icon {
+  height: 32px;
+}
+
 .nav-cart-count {
   width: 18px;
   height: 18px;

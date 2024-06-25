@@ -1,12 +1,13 @@
 import React from "react";
-import shop_logo from "../../../../assets/logo_big.png";
+import contact_box_side from "../../../../assets/contact_box_side.png";
 import { Link } from "react-router-dom";
 import "./contact.css";
+import shopping_photo from "../../../../assets/shopping_photo.png";
 
 function contact() {
   return (
     <div className="contact-container mt-5">
-      <div className="contact-content d-flex justify-content-between mt-5 w-75 align-items-center text-center">
+      <div className="contact-content d-flex  mt-5 ">
         <div className="contact-content-button fs-5">
           <p>
             <h1>Want To Know More?</h1>
@@ -14,13 +15,16 @@ function contact() {
           <p>
             <h1>Reach out to us!</h1>
           </p>
+          <img src={shopping_photo} alt="" />
         </div>
-        <div className="contact-content-box">
-          <img src={shop_logo} alt="" />
-          <div>
-            <ul>
-              <p>Contact US</p>
+        <div className="contact-form">
+          <img src={contact_box_side} alt="" />
+          <div className="contact-form-box">
+            <p>
+              <h2>Contact US</h2>
+            </p>
 
+            <ul>
               <li>
                 <input type="text" placeholder="Name" />
               </li>
@@ -32,7 +36,10 @@ function contact() {
               </li>
             </ul>
             <button>
-              <Link>Submit</Link>
+              <Link style={{ textDecoration: "none", color: "white" }}>
+                {" "}
+                Submit
+              </Link>
             </button>
           </div>
         </div>

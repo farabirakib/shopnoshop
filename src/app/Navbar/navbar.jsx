@@ -101,7 +101,7 @@ const Navbar = () => {
           <button>Login</button>
         </Link>
         <Link to={"/cartIcon"}>
-          <img src={cartIcon} alt="" />
+          <img src={cartIcon} alt="" className="cart-icon" />
         </Link>
 
         <div className="nav-cart-count">0</div>
