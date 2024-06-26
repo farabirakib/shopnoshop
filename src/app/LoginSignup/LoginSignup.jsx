@@ -15,6 +15,12 @@ function LoginSignup() {
           <input type="email" placeholder="Email Address" />
           <input type="password" placeholder="Password" />
         </div>
+        <div className="loginsignup-agree">
+          <p>
+            <input type="checkbox" name="" id="" />
+            By continuing, i agree to the terms of use & privacy.
+          </p>
+        </div>
         <div className="loginsignup-fields-btn">
           <button>Sign UP</button>
         </div>
@@ -22,13 +28,17 @@ function LoginSignup() {
           <p>
             Already have an account?{" "}
             <span>
-              <Link>Login</Link>
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "hotpink",
+                  fontWeight: 500,
+                }}
+              >
+                Login
+              </Link>
             </span>
           </p>
-        </div>
-        <div className="loginsignup-agree">
-          <input type="checkbox" name="" id="" />
-          <p>By continuing, i agree to the terms of use & privacy.</p>
         </div>
       </div>
     </div>
