@@ -22,3 +22,18 @@ code {
 a {
   text-decoration: none;
 }
+.custom-gradient {
+  @apply bg-gradient-to-r;
+  background-image: linear-gradient(90deg, #ff66b2, #ff6666);
+}
+.custompink {
+  background: "rgb(247, 139, 163)";
+}
+.custombg {
+  background: linear-gradient(
+    90deg,
+    rgb(242, 129, 154) 0%,
+    rgba(247, 248, 249, 1) 60%,
+    rgba(244, 240, 243, 1) 100%
+  );
+}
