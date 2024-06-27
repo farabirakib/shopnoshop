@@ -1,5 +1,5 @@
 .productdisplay {
-  margin: 50px;
+  margin: 100px 50px;
   display: flex;
 }
 .productdisplay-left {
@@ -58,4 +58,14 @@
   border: 1px solid #ebebeb;
   border-radius: px;
   cursor: pointer;
+}
+.productdisplay-right-size button {
+  padding: 15px 30px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid #656565;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ff66b2, #ff6666);
 }

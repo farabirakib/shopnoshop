@@ -11,6 +11,7 @@ import women_banner from "./assets/banner_women.png";
 import kid_banner from "./assets/banner_kids.png";
 import LoginSignup from "./app/LoginSignup/LoginSignup";
 import Product from "./app/page/Products/Product/Product";
+import "./index.css";
 
 function App() {
   return (

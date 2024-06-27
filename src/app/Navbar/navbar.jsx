@@ -7,7 +7,7 @@ import cartIcon from "../../assets/cart_icon.png";
 const Navbar = () => {
   const [setMenu] = useState("shop");
   return (
-    <nav className="navbar">
+    <nav className="fixed top-0 left-0 w-full h-[90px] mx-auto bg-white flex justify-between items-center shadow-[0_1px_3px_-2px_#000000]">
       <Link
         onClick={() => {
           setMenu("shop");
@@ -100,7 +100,7 @@ const Navbar = () => {
         <Link to={"/LoginSignup"}>
           <button>Login</button>
         </Link>
-        <Link to={"/cartIcon"}>
+        <Link>
           <img src={cartIcon} alt="" className="cart-icon" />
         </Link>
 
