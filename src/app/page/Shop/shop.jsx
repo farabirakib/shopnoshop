@@ -15,13 +15,18 @@ function Shop() {
           <div className="justify-between flex ">
             <div className=" mt-12 ">
               <p>NEW ARRIVALS ONLY</p>
-              <p className="text-6xl  font-bold">
+              <p className="text-6xl  font-bold pt-4">
                 <div>New</div>
                 <div>Collections</div> For Everyone
               </p>
-              <div className="home-btn">
-                <Link className="btn  gap-3 m-3 text-xl">
-                  Latest Collections <img src={arrowIcon} alt="" />
+              <div className="  text-xl rounded">
+                <Link className="btn custom-gradient  mt-5 gap-3 m-3 text-xl">
+                  Latest Collections
+                  <img
+                    className="mt-2 pl-2 float-right items-center"
+                    src={arrowIcon}
+                    alt=""
+                  />
                 </Link>
               </div>
             </div>

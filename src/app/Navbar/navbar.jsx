@@ -54,11 +54,6 @@ const Navbar = () => {
               setMenu("kids");
             }}
             to={"/kids"}
-            style={{
-              textDecoration: "none",
-              color: "#828282",
-              fontWeight: 700,
-            }}
           >
             Kids
           </Link>
