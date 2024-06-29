@@ -37,3 +37,14 @@ a {
     rgba(244, 240, 243, 1) 100%
   );
 }
+.custom-gradientbg {
+  background: linear-gradient(
+    90deg,
+    rgb(242, 129, 154) 0%,
+    rgba(247, 248, 249, 1) 60%,
+    rgba(242, 129, 154) 100%
+  );
+}
+.offerbg {
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}

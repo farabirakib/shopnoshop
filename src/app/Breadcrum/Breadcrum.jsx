@@ -1,11 +1,10 @@
 import React from "react";
-import "./Breadcrum.css";
 import arrow_icon from "../../assets/arrow.png";
 
 const Breadcrum = (props) => {
   const { product } = props;
   return (
-    <div className="breadcrum">
+    <div className="flex items-center gap-2 text-gray-600 text-base font-semibold capitalize">
       <div>
         HOME <img src={arrow_icon} alt="" />
         SHOW <img src={arrow_icon} alt="" />

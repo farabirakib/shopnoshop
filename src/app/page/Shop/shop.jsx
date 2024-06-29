@@ -9,8 +9,8 @@ import NewsLetter from "../NewsLetter/NewsLetter";
 
 function Shop() {
   return (
-    <nav>
-      <div className="h-[80vh] mt-8   custombg ">
+    <nav className="w-screen overflow-hidden">
+      <div className="w-full h-[80vh] mt-8   custombg ">
         <div className="container">
           <div className="justify-between flex ">
             <div className=" mt-12 ">
@@ -30,8 +30,8 @@ function Shop() {
                 </Link>
               </div>
             </div>
-            <div className="h-[50vh] pt-[5%] float-right">
-              <img className="h-[30rem] " src={homePhoto} alt="" />
+            <div className="h-[90vh] pt-[5%] float-right">
+              <img className="h-[70vh] " src={homePhoto} alt="" />
             </div>
           </div>
         </div>
