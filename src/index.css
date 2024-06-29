@@ -19,8 +19,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 a {
   text-decoration: none;
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-sky-500 rounded-md;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-500;
+  }
 }
 .custom-gradient {
   @apply bg-gradient-to-r;

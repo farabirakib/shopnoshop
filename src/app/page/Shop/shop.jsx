@@ -10,28 +10,24 @@ import NewsLetter from "../NewsLetter/NewsLetter";
 function Shop() {
   return (
     <nav className="w-screen overflow-hidden">
-      <div className="w-full h-[80vh] mt-8   custombg ">
+      <div className="w-full h-50 mt-8 custombg ">
         <div className="container">
-          <div className="justify-between flex ">
-            <div className=" mt-12 ">
+          <div className="flex justify-between">
+            <div className="mt-12">
               <p>NEW ARRIVALS ONLY</p>
-              <p className="text-6xl  font-bold pt-4">
+              <p className="text-[5vw]  font-bold pt-4">
                 <div>New</div>
                 <div>Collections</div> For Everyone
               </p>
-              <div className="  text-xl rounded">
-                <Link className="btn custom-gradient  mt-5 gap-3 m-3 text-xl">
+              <div className="rounded">
+                <Link className="btn custom-gradient text-sm font-medium">
                   Latest Collections
-                  <img
-                    className="mt-2 pl-2 float-right items-center"
-                    src={arrowIcon}
-                    alt=""
-                  />
+                  <img className="w-4 items-center" src={arrowIcon} alt="" />
                 </Link>
               </div>
             </div>
-            <div className="h-[90vh] pt-[5%] float-right">
-              <img className="h-[70vh] " src={homePhoto} alt="" />
+            <div className=" pt-[80px] float-right">
+              <img className="w-[30vw]" src={homePhoto} alt="" />
             </div>
           </div>
         </div>

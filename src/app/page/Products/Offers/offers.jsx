@@ -4,18 +4,20 @@ import exclucive_image from "../../../../assets/exclusive_image.png";
 
 const offers = () => {
   return (
-    <div className="h-[60vh] flex mb-36  offerbg">
-      <div className="ml-28 flex flex-1 flex-column  justify-end py-24">
-        <h1 className="text-7xl text-gray-900 font-medium">Exclusive</h1>
-        <h1 className="text-5xl text-gray-900 font-medium">Offers For You</h1>
-        <p className="mt-7 text-xl">ONLY ON BEST SELLERS PRODUCTS</p>
+    <div className="h-[80vh] flex offerbg">
+      <div className="ml-[2vw] py-[2vw] justify-end ">
+        <h1 className="text-[7vw] text-gray-900 font-medium">Exclusive</h1>
+        <h1 className="text-[ 5vw] text-gray-900 font-medium">
+          Offers For You
+        </h1>
+        <p className="mt-7 text-[3vw]">ONLY ON BEST SELLERS PRODUCTS</p>
         <div className="mt-14">
-          <Link className="w-44 h-16 p-2 custom-gradient text-3xl font-medium cursor-pointer  text-black no-underline  rounded border border-1 border-black">
+          <Link className="w-44 h-16 p-2 custom-gradient text-[3vw] font-medium cursor-pointer  text-black no-underline  rounded border border-1 border-black">
             Check Now
           </Link>
         </div>
       </div>
-      <div className="pr-10">
+      <div className="size-[30vw] pr-[2vw] ">
         <img src={exclucive_image} alt="" />
       </div>
     </div>
