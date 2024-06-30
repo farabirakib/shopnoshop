@@ -4,12 +4,12 @@ import Item from "../Item/item";
 
 const popular = () => {
   return (
-    <div className="h-screen mt-5 flex flex-column items-center gap-2 ">
+    <div className="h-4/5 md:h-[100vh]  flex flex-column items-center gap-2 ">
       <h1 className="text-gray-900 text-[5vw] font-semibold pb-3 border-b-4">
         POPULAR IN WOMEN
       </h1>
 
-      <div className=" mt-5  flex gap-8 px-12">
+      <div className="my-4 flex gap-2 px-6">
         {data_product.map((item, i) => {
           return (
             <Item

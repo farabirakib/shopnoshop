@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function footer() {
   return (
-    <div className="w-full custom-gradientbg flex flex-column justify-center items-center gap-3">
+    <div className="w-full md:h-[40vh] custom-gradientbg flex flex-column justify-center items-center gap-3">
       <div className="h-1/2 flex items-center gap-8">
         <img className="w-[10vw]" src={footer_logo} alt="" />
         <p className="text-gray-600 text-[7vw] font-bold">SHOPNOSHOP</p>

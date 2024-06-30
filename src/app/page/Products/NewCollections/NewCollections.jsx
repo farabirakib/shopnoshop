@@ -9,7 +9,7 @@ const NewCollections = () => {
         NEW COLLECTIONS
       </h1>
 
-      <div className="mt-5 text-center grid grid-cols-4 gap-8 flex-wrap">
+      <div className="mt-3 text-center grid grid-cols-4 gap-8 flex-wrap">
         {new_collections.map((item, i) => {
           return (
             <Item
