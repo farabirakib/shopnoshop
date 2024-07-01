@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Login from "../../app/LoginSignup/Login";
 
 function LoginSignup() {
   return (
@@ -30,6 +31,7 @@ function LoginSignup() {
             Already have an account?{" "}
             <span>
               <Link
+                to="/Login"
                 style={{
                   textDecoration: "none",
                   color: "hotpink",

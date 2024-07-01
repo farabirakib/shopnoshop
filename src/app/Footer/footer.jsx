@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 function footer() {
   return (
     <div className="w-full md:h-[40vh] custom-gradientbg flex flex-column justify-center items-center gap-3">
-      <div className="h-1/2 flex items-center gap-8">
-        <img className="w-[10vw]" src={footer_logo} alt="" />
-        <p className="text-gray-600 text-[7vw] font-bold">SHOPNOSHOP</p>
+      <div className=" flex items-center gap-8">
+        <img className="w-[5vw]" src={footer_logo} alt="" />
+        <p className="text-gray-600 text-[3vw] font-bold">SHOPNOSHOP</p>
       </div>
-      <div className="footer-container ">
-        <ul className="flex list-none  text-gray-700 gap-[5vw] [&>li]:cursor-pointer  text-[3vw] justify-center ">
+      <div className="footer-container">
+        <ul className="flex list-none text-gray-700 [&>li]:cursor-pointer gap-[4vw] text-lg justify-center ">
           <li>
             <Link
               className="font-bold"
@@ -23,7 +23,7 @@ function footer() {
               Company
             </Link>
             <div className="footer-links-content">
-              <ul className="text-[1.8vw]">
+              <ul className="text-sm">
                 <li>Shop-01</li>
                 <li>Shop-02</li>
                 <li>Shop-03</li>
@@ -40,7 +40,7 @@ function footer() {
               Offices
             </Link>
             <div className="footer-links-content">
-              <ul className="text-[1.8vw]">
+              <ul className="text-sm">
                 <li>Dhaka-01</li>
                 <li>Khulna-02</li>
                 <li>Jessore-03</li>
@@ -56,7 +56,7 @@ function footer() {
             >
               About
             </Link>
-            <div className="footer-links-content text-[1.8vw]">
+            <div className="footer-links-content text-sm">
               Each dress in our <br /> collection is <br />
               meticulously chosen
               <br /> for its craftsmanship
@@ -72,11 +72,12 @@ function footer() {
               Contact
             </Link>
             <div className="footer-links-content">
-              <p className="text-[1.8vw]">
+              <p className="text-sm">
                 Mirpur-1,
                 <br />
-                info@shopnoshop.com, <br />
-                015552223365{" "}
+                info@shopno.com
+                <br />
+                015552223365
               </p>
               <div className="w-[10vw] flex gap-2vw gap-[2vw]">
                 <div className="">
