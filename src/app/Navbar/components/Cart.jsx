@@ -10,7 +10,7 @@ const Cart = () => {
       </span>
       <span className="size-8 inline-block">
         <img src={icons.cart} alt="" className="size-full" />
-      </span> 
+      </span>
     </Link>
   );
 };
