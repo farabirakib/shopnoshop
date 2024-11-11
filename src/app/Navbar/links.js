@@ -24,6 +24,11 @@ const links = [
     path: "/about-us",
     title: "About us",
   },
+  {
+    id: 6,
+    path: "/about-us",
+    title: "contact",
+  },
 ];
 
 export default links;
